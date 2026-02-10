@@ -1,176 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PUMA Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Clone</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">Amazon</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search">
+      <button>Search</button>
+    </div>
+    <div class="nav-links">
+      <a href="#">Sign In</a>
+      <a href="#">Orders</a>
+      <a href="#">Cart</a>
+    </div>
+  </header>
 
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to Amazon Clone</h1>
+    <p>Shop your favorite products</p>
+  </section>
 
-    <header class="header">
-        <div class="logo">
-            <a href="" target="_blank">
-                <img src="https://i.pinimg.com/736x/2f/f4/b4/2ff4b4ebab30c52ce08117d57b19ac6b.jpg" height="400px" width="300px"><a>
-        </div>
+  <!-- Products -->
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product">
+      <h3>Product 1</h3>
+      <p>$20.00</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product">
+      <h3>Product 2</h3>
+      <p>$35.00</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product">
+      <h3>Product 3</h3>
+      <p>$15.00</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
 
-        <form class="search-container" role="search" action="" method="get">
-            <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content">
-            <button type="submit">Search</button>
-        </form>
-          
-          <nav class="nav">
-            <a href="" class="action cart">🛒
-                <strong>Cart</strong></a>
-            <a href="" target="_blank">Home</a>
-            <a href="" target="_blank"><strong></strong> Search</strong> </a>
-            <a href="" target="_blank"><strong>Men</strong> </a>
-            <a href="" target="_blank"><strong>Women</strong> </a>
-            <a href="" target="_blank"><strong>Shoes</strong> </a>
-            <a href="" target="_blank"><i class="fa-solid fa-user"></i><strong>Contact<strong></a>
-        </nav>
-    </header>
-
-
-    <section class="banner">
-        <div class="banner-text">
-            <br><br><br><br><br>
-            <div class="boxes">
-                <div id="h3"><a href=""><b>SNEAKERS</b></a></div>
-                <div id="h3"><a href=""><b>T-SHIRTS</b></a></div>
-                <div id="h3"><a href=""><b>BAGS</b></a>
-                </div>
-                <div id="h3"><a href=""><b>ACTIVE WEARS</b></a></div>
-                <div id="h3"><a href=""><b>TRACK PANTS</b></a></div>
-            </div>
-    </section>
-
-    <section class="products">
-        <h1><u>Featured Products</u></h1>
-        <br><br>
-        <div class="product-box">
-
-            <div class="product">
-                <img
-                    src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRRvF1veYWHcbprR3smuItwOXXJ7mWH0DnzzWThWGQShlvbyOEUo0V5JyFB4yiSLLeCx55xZH_jV-X5ANLgwxwHhDx1k_DSvR-XU-cYkAnfifx1e9eFDlL_NB6267UyKKV2P066Ug8&usqp=CAc">
-                <br><br><br><br><br><br>
-                <h3>Running Shoes</h3>
-                <p>₹11249</p>
-                <a href="" target="_blank">
-                    <button>Buy Now</button>
-                </a>
-            </div>
-
-            <div class="product">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp1d2MY4B9fQK6npHuOzQIc-qn7hPh8ordog&s">
-                <br><br><br><br>
-                <h3>Sports T-Shirt</h3>
-                <p>₹1499</p>
-                <a href="" target="_blank">
-                    <button>Buy Now</button>
-                </a>
-            </div>
-
-            <div class="product">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS040d9oQ6oshg5iMndwCM7SLGzGGx-EdyohQ&s">
-                <br><br>
-                <h3>Track Pants</h3>
-                <p>₹1999</p>
-                <a href="" target="_blank">
-                    <button>Buy Now</button>
-                </a>
-            </div>
-
-            <div class="product">
-                <img
-                    src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSnC-8bwJ1P9vJNZCREBEO4OlrONRtZU2KJ6Ghrptv6vd93phniavOdwmmhgX9BSgy6IMGxBJ-AgpHPyXXYQ1wzOupvZgblElhrBP1fNVDmZdoLSCoJaRPQjXNOKUJGVUulaCwXEg&usqp=CAc">
-                <br><br><br><br>
-                <h3>Puma Bags</h3>
-                <p>₹499</p>
-                <a href="" target="_blank">
-                    <button>Buy Now</button>
-                </a>
-            </div>
-
-            <div class="product">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRnXIsHlVYKFax5lE-7RFhtNayQBIn9G8tcA&s">
-                <br><br><br><br>
-                <h3>Puma Jackets </h3>
-                <p>₹1999</p>
-                <a href="" target="_blank">
-                    <button>Buy Now</button>
-                </a>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="products">
-        <div class="product-box">
-
-            <div class="product">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN_MEQy_hLiGiu2ZkO-5qDkpF74gkpxIMLVQ&s">
-                <br><br><br>
-                <h3>Running Shoes</h3>
-                <p>₹2999</p>
-                <a href="" target="_blank">
-                    <button>Buy Now</button>
-                </a>
-            </div>
-
-            <div class="product">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxU9b1uyrkKTpzgVM-k68xJ9DB7vV59RezuA&s">
-                <h3>Track Pants</h3>
-                <p>₹1999</p>
-                <a href="" target="_blank">
-                    <button>Buy Now</button>
-                </a>
-            </div>
-
-            <div class="product">
-                <img
-                    src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTa_zGgJmvUlx5d-mBweuVH_jg3vNVwgmmk9SyZtV1uWUP7YHEzhniR7XjMQXG6kiLc-LynVjI8WgHjN6251fJsbNQDq6jivo227mq5zczExyESxU9nvve75bUUTBPkVqATVnMwcopNpHM&usqp=CAc">
-                <br><br><br><br>
-                <h3>Puma Bags</h3>
-                <p>₹499</p>
-                <a href="" target="_blank">
-                    <button>Buy Now</button>
-                </a>
-            </div>
-
-            <div class="product">
-                <img
-                    src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS14UA8gTY_aPQDxQAP61lY3jaRFk2fBeRnr4I_D4YOotJqpFPizA4FB51kMrUrzVgiLooVIJYdYFiTGdr7VLX4HWibOy_8s6nBCkxuKSGRJMJgARVG&usqp=CAc">
-                <br><br><br><br><br>
-                <h3>Puma Jackets </h3>
-                <p>₹1999</p>
-                <a href="" target="_blank">
-                    <button>Buy Now</button>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <p>
-            © 2025 |
-            <a href="" target="_blank">Official PUMA Website</a>
-        </p>
-    </footer>
-
-    <footer class="footer">
-        <div class="container footer-grid">
-            <div>
-                <h4>Connect with us</h4>
-                    <li><a href=""><i class="fa-brands fa-facebook-f"></i>  Facebook</a></li>
-                    <li><a href=""><i class="fa-brands fa-x-twitter"></i>       Twitter</a></li>
-                    <li><a href=""><i class="fa-brands fa-instagram"></i>  Instagram</a></li>
-            </div>
-        </div>
+  <!-- Footer -->
+  <footer>
+    <p>Amazon Clone © 2026</p>
+  </footer>
 </body>
-
 </html>
